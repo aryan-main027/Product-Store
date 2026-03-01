@@ -1,0 +1,23 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon backend/index.js",
+    "build": "npm install  && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "NODE_ENV=production node backend/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "mongoose": "^9.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
