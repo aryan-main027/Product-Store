@@ -38,25 +38,6 @@ A full-stack Product Store web application built using the MERN stack where user
 
 ---
 
-## 📁 Project Structure
-Product-Store/
-│
-├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── config/
-│ └── index.js
-│
-├── frontend/
-│ ├── src/
-│ └── dist/ (generated after build)
-│
-├── package.json
-└── README.md
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
